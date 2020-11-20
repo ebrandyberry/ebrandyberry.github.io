@@ -1,0 +1,33 @@
+.header h1 {
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: middle;
+}
+.topnav {
+	background-color: red;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: white;
+}
+
+.topnav a.active {
+	background-color: #ddd;
+}
